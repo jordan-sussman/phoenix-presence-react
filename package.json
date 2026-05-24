@@ -1,0 +1,32 @@
+{
+  "name": "phoenix-presence-react",
+  "version": "1.0.0",
+  "description": "React hook for Phoenix Presence",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run"
+  },
+  "peerDependencies": {
+    "phoenix": ">=1.6",
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/phoenix": "^1.6.7",
+    "@types/react": "^18.0.0",
+    "jsdom": "^27.0.1",
+    "phoenix": "^1.7.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "typescript": "^5.0.0",
+    "vitest": "^3.2.4"
+  }
+}
