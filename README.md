@@ -2,6 +2,11 @@
 
 React hook for [Phoenix Presence](https://hexdocs.pm/phoenix/Phoenix.Presence.html). Tracks who's online in real time via Phoenix channels.
 
+Screenshot from example app:
+
+<img src="example/example-screenshot.png" width="600">
+
+
 ## Install
 
 ```bash
