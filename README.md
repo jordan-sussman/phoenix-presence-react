@@ -43,6 +43,29 @@ function OnlineUsers({
   );
 }
 ```
+## Getting started
+
+### Build
+
+To compile the library:
+
+```bash
+npm install
+npm run build
+```
+
+### Running the Example
+
+The example uses a `mock-phoenix` implementation to simulate presence events without requiring a live Elixir backend.
+
+
+To run the provided example app from screenshot:
+
+```bash
+cd example
+npm install
+npm run dev
+```
 
 ## Advanced Usage
 
