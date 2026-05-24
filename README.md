@@ -43,7 +43,6 @@ function OnlineUsers({
   );
 }
 ```
-## Getting started
 
 ### Build
 
